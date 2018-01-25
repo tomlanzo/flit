@@ -34,7 +34,7 @@
   }
 }
 
-#btn {
+#test {
   padding-left: 100px;
   text-align: left;
 }
@@ -60,13 +60,22 @@
   margin-bottom: 80px;
 }
 
-.btn-lg, .btn-group-lg > .btn {
+.btn{
     padding: 10px 80px;
     font-size: 17px;
     line-height: 1.3333333;
     border-radius: 46px;
-    background: linear-gradient(to right, #da5420 0%, #fb6318 100%)
+    background: linear-gradient(to right, #da5420 0%, #fb6318 100%);
+    color: white;
   }
+.btn:hover {
+  background: red;
+  color: white;
+}
+
+
+
+
 
 
 
