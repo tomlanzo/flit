@@ -1,10 +1,10 @@
-h1 {
+
+
+.container {
+  color: black;
   margin: 0px;
   padding: 0px;
-}
-
-.banner {
-  color: black;
+  width: 100%;
   text-align: center;
   height: 95vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
@@ -13,17 +13,17 @@ h1 {
   align-items: center;
   justify-content: center;
   background: white;
-  margin: 30px;
+
 
   // background-position:25% 76%;
   h1 {
+    padding: 50px;
     font-size: 10px;
     font-weight: bold;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 
     img {
-      width : 500px;
-      height : 500px;
+      width : 335px;
       background-color: transparent;
     }
   }
@@ -34,16 +34,41 @@ h1 {
   }
 }
 
-.wrapper {
-  margin-top: 2px;
-  background: white;
-  color: black;
-
-  h1 {
-     font-size: 28px;
-     background-color: white;
-     padding-top: 13px;
-     padding-bottom: 13px;
-  }
+#btn {
+  padding-left: 100px;
+  text-align: left;
 }
+
+.banner {
+  color: white;
+  height: 80vh;
+  text-align: center;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: white;
+  opacity: 0.9;
+  margin-bottom: 80px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 80px;
+    font-size: 17px;
+    line-height: 1.3333333;
+    border-radius: 46px;
+    background: linear-gradient(to right, #da5420 0%, #fb6318 100%)
+  }
+
+
+
+
 
