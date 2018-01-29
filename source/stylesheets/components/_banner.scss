@@ -2,11 +2,11 @@
 
 .container {
   color: black;
-  margin: 0px;
+  margin-top: 0px;
   padding: 0px;
   width: 100%;
   text-align: center;
-  height: 95vh;
+  height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
@@ -27,6 +27,7 @@
       background-color: transparent;
     }
   }
+
   p {
     font-size: 19px;
     color: grey ;
@@ -41,7 +42,7 @@
 
 .banner {
   color: white;
-  height: 80vh;
+  height: 100vh;
   text-align: center;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
@@ -49,9 +50,17 @@
   align-items: center;
   justify-content: center;
 }
+
+.banner img {
+  height: 200px;
+}
+
+
 .banner h1 {
   font-size: 50px;
 }
+
+
 .banner p {
   font-size: 18px;
   font-weight: lighter;
