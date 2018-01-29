@@ -1,40 +1,5 @@
 
 
-.container {
-  color: black;
-  margin-top: 0px;
-  padding: 0px;
-  width: 100%;
-  text-align: center;
-  height: 100vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: white;
-
-
-  // background-position:25% 76%;
-  h1 {
-    padding: 50px;
-    font-size: 10px;
-    font-weight: bold;
-    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-
-    img {
-      width : 335px;
-      background-color: transparent;
-    }
-  }
-
-  p {
-    font-size: 19px;
-    color: grey ;
-    margin: 50px;
-  }
-}
-
 #test {
   padding-left: 100px;
   text-align: left;

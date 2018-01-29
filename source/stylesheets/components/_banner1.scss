@@ -1,12 +1,42 @@
-.banner1 {
+
+
+.container {
   color: black;
-  height: 100vh;
+  margin-top: 0px;
+  padding: 0px;
+  width: 100%;
   text-align: center;
-  padding: 70px;
+  height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
   align-items: center;
+  justify-content: center;
+  background: white;
+
+
+  // background-position:25% 76%;
+  h1 {
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+
+}
+
+.title {
+  margin-top: 0px;
+}
+
+.banner1 {
+  color: black;
+  height: 100vh;
+  text-align: center;
+  padding: 10px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
   justify-content: center;
   background-color: white;
 }
@@ -19,6 +49,12 @@
   height: 400px;
 }
 
+.bannertel p {
+  margin: 0px;
+  padding-left: 35px;
+  padding-right: 50px;
+}
+
 
 .paddedtop {
   padding-top: 150px;
@@ -28,12 +64,13 @@
   padding-top: 50px;
 }
 
-.banner1 h1 {
-  font-size: 20px;
-}
+
 
 .banner1 p {
   font-size: 17px;
   font-weight: lighter;
   opacity: 0.9;
+  margin: 0px;
+  padding-left: 35px;
+  padding-right: 50px;
 }
