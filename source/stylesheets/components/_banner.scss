@@ -16,6 +16,11 @@
   justify-content: center;
 }
 
+
+@media (max-width: 768px) {
+.banner {height: auto;}
+}
+
 .banner img {
   height: 100px;
 }
