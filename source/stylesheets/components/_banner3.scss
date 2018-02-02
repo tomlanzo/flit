@@ -1,0 +1,47 @@
+.banner3 {
+  color: black;
+  height: 100vh;
+  text-align: center;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+img {
+  height: 100px;
+}
+
+h1 {
+  font-size: 40px;
+
+}
+
+h2 {
+    font-size: 22px;
+    padding-left: 65px;
+    margin-top: -10px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: lighter;
+  opacity: 0.9;
+  margin-bottom: 80px;
+}
+
+}
+
+@media (max-width: 768px) {
+.banner3 {height: auto;}
+}
+
+.left {
+  padding: 50px;
+  text-align: left;
+}
+
+.paddedbtn {
+  padding-top: 20%;
+  padding-left: 10%;
+}
