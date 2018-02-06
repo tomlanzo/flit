@@ -7,8 +7,8 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-883175ec.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
+    <link href="stylesheets/application-dfea7bda.css" rel="stylesheet" />
+    <script src="javascripts/application-0cca0280.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
 
@@ -16,16 +16,16 @@
     <!-- Add navbar -->
     <div class="navbar-wagon">
       <!-- Logo -->
-      <a href="/" class="navbar-wagon-brand">
+      <a href="#top" class="navbar-wagon-brand">
         <img src="images/LogoFlit-429ce731.png" alt="logo">
       </a>
 
       <!-- Right Navigation -->
       <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-        <a href=".html" class="navbar-wagon-item navbar-wagon-link">Produit</a>
-        <a href=".html" class="navbar-wagon-item navbar-wagon-link">Prix</a>
-        <a href=".html" class="navbar-wagon-item navbar-wagon-link">Newsletter</a>
+        <a class = "navbar-wagon-item navbar-wagon-link" href="#banner1">Produit</a>
+        <a class = "navbar-wagon-item navbar-wagon-link" href="#banner3">Prix</a>
+        <a class = "navbar-wagon-item navbar-wagon-link" href="#banner4">Newsletter</a>
 
       </div>
 
@@ -34,9 +34,9 @@
         <div class="dropdown">
           <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
           <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-            <li><a href=".html" class="navbar-wagon-item navbar-wagon-link">Produit</a></li>
-            <li><a href=".html" class="navbar-wagon-item navbar-wagon-link">Prix</a></li>
-            <li><a href=".html" class="navbar-wagon-item navbar-wagon-link">Newsletter</a></li>
+            <li><a class = "navbar-wagon-item navbar-wagon-link" href="#banner1">Produit</a></li>
+            <li><a class = "navbar-wagon-item navbar-wagon-link" href="#banner3">Prix</a></li>
+            <li><a class = "navbar-wagon-item navbar-wagon-link" href="#banner4">Newsletter</a></li>
           </ul>
         </div>
       </div>
@@ -73,7 +73,7 @@
 <section class="banner1">
 
  <div class="container">
-    <div class="row">
+    <div class="row" id="banner1">
       <h1 class="title">Tous les outils pour piloter votre activité </h1>
     <div class="col-sm-4 padded1 bannertel img-fluid">
       <img src="images/SoldeMockUp1-9d6f4739.png" alt="Soldemockup1" />
@@ -147,7 +147,7 @@
   </div>
 
 
-    <div class="banner3" style="background: linear-gradient(to right, #fff 50%, #1287F6 50%, #005bea 100%)">
+    <div class="banner3" id="banner3" style="background: linear-gradient(to right, #fff 50%, #1287F6 50%, #005bea 100%)">
 
  <div class="container">
   <div class="row">
@@ -181,10 +181,46 @@
 
 
 
-    <div class="banner" style="background: linear-gradient(to right, #00c6fb 0%, #005bea 100%)">
+    <div class="banner4" id="banner4" style="background: linear-gradient(to right, #00c6fb 0%, #005bea 100%)">
+
+  <div class="row">
+        <h2>Ils ne parlent pas encore de nous...</h2>
+  </div>
 
 
-    <div id="about">
+   <div class="bande">
+     <img src="images/TechCrunch-47373fed.png" alt="Techcrunch" />
+     <img src="images/BusinessInsider-969500a0.png" alt="Businessinsider" />
+     <img src="images/LesEchos-2472f56b.png" alt="Lesechos" />
+     <img src="images/FrenchWeb-209b74be.png" alt="Frenchweb" />
+   </div>
+
+  <div class="row">
+        <h2>... Suivez-nous en vous inscrivant à notre NewsLetter!</h2>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+    <div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fa fa-twitter-square"></i></a>
+    <a href="#"><i class="fa fa-linkedin-square"></i></a>
+    <a href="#"><i class="fa fa-facebook-square"></i></a>
+  </div>
+
+</div>
+
+
+
+  <div id="about">
   <div class="about-content">
     <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
     <ul class="list-inline">
@@ -205,6 +241,7 @@
     </ul>
   </div>
 </div>
+
 
   </body>
 </html>
