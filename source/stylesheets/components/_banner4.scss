@@ -4,20 +4,39 @@
   text-align: center;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
-  display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0px;
+
+
+  h2 {
+    font-size: 25px;
+    padding-top: 50px;
+  }
 
 }
 
+@media (max-width: 768px) {
+.banner4 {height: auto;}
+}
 
 .bande {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background-color: white;
-  transition: all 0.3s ease;
-  height: 70px;
-  padding: 0px 30px;
+  box-sizing: content-box;
+  color: black;
+  height: 150px;
   display: flex;
+  text-align: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+
+  img{
+    height: 70px;
+  }
+  @media (max-width: 768px) {
+  .bande img {height: auto;}
 }
+
+}
+
+
