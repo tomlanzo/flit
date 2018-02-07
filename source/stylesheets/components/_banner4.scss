@@ -29,13 +29,18 @@
   text-align: center;
   align-items: center;
   justify-content: space-around;
-
+  @media (max-width: 768px) {
+    display:block;
+    height: auto;
+    img {
+      display: block;
+      margin: 0 auto;
+      height: auto;
+    }
+  }
   img{
     height: 70px;
   }
-  @media (max-width: 768px) {
-  .bande img {height: auto;}
-}
 
 }
 

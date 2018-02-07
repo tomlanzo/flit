@@ -31,7 +31,9 @@ p {
 }
 
 }
-
+.padded {
+  padding: 30px;
+}
 @media (max-width: 768px) {
 .banner3 {height: auto;}
 }
@@ -42,6 +44,10 @@ p {
 }
 
 .paddedbtn {
-  padding-top: 20%;
-  padding-left: 10%;
+  padding-top: 100px;
+  padding-left: 50px;
+  @media (max-width: 768px) {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
 }

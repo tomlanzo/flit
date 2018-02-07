@@ -57,6 +57,9 @@ p {
     border-radius: 46px;
     background: linear-gradient(to right, #da5420 0%, #fb6318 100%);
     color: white;
+    @media (max-width: 768px) {
+      white-space: normal;
+    }
   }
 
 .btn:hover {
