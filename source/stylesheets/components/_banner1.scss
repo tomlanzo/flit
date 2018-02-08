@@ -19,6 +19,12 @@
     font-size: 33px;
   }
 
+  h2 {
+    font-size: 18px;
+    padding: 9px;
+    margin: 0px;
+  }
+
   p {
   font-size: 17px;
   font-weight: lighter;
@@ -54,11 +60,28 @@
   padding-top: 150px;
 }
 
-.paddedtop p {
+.paddedtopcard {
   padding-top: 50px;
 }
 
+.paddedtopterminal {
+  padding-top: 10px;
+}
 
+.available {
+    background-color: #fbbe46;
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    width: auto;
+
+     @media (max-width: 768px) {
+      white-space: normal;}
+
+}
 
 
 
